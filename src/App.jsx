@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 import illocaleLogo from './assets/illocaleLogo.png'
-import busseltonLogo from './assets/busselton.png'
+import comingSoonLogo from './assets/comingSoonLogo.png'
 import backgroundImage from "./assets/bg.png"; // Adjust the path based on your project structure
 import './App.css'
 
@@ -29,7 +29,7 @@ function App() {
       objectFit: 'cover',
       height: '12vh'
     },
-    busseltonLogo:{
+    comignSoonLogo:{
       objectFit: 'cover',
       maxHeight: '30vh',
       maxWidth: '90vw'
@@ -109,7 +109,7 @@ function App() {
 
           {/* Content */}
           <div style={styles.content}>
-            <img src={busseltonLogo} alt="Busselton Logo" style={styles.busseltonLogo} />
+            <img src={comingSoonLogo} alt="coming Soon Logo" style={styles.comignSoonLogo} />
             <h2>Coming Soon.</h2>
           </div>
         </main>
